@@ -74,6 +74,7 @@ img {
 	background-color: #eee;
 }
 
+
 .info h2 {
 	margin-top: 0;
 	font-size: 2.9rem;
@@ -88,6 +89,10 @@ img {
 	text-align: right;
 }
 
+.entry {
+	position: relative;
+}
+
 .ge {
 	margin-top: 200px;
 }
@@ -97,7 +102,7 @@ img {
 }
 
 .food img {
-	margin-top: 140px;
+	margin-top: 200px;
 }
 
 .food h2{
@@ -152,4 +157,51 @@ img {
 	width: 28px;
 	right: 428px;
 	top: 235px;
+}
+
+.info-c1 {
+	height: 480px;
+	width: 480px;
+	bottom: 260px;
+}
+
+.info-c2 {
+	height: 350px;
+	width: 350px;
+	right: 30px;
+	top: 50px;
+}
+
+.info-c3 {
+	height: 170px;
+	width: 170px;
+	bottom: 60px;
+	left: 100px;
+}
+
+.info-c4 {
+	height: 380px;
+	width: 380px;
+	right: 200px;
+}
+
+.info-c5 {
+	height: 100px;
+	width: 100px;
+	right: 150px;
+	bottom: 300px;
+}
+
+.info-c6 {
+	height: 150px;
+	width: 150px;
+	bottom: 70px;
+	left: 30px;
+}
+
+.info-c7 {
+	height: 500px;
+	width: 500px;
+	top: 170px;
+	left: 110px;
 }
