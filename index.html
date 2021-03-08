@@ -3,42 +3,60 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Kath Cabrera's GitHub Page</title>
 
+<!-- Bootstrap 4.6 -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<!-- CSS -->
         <link rel="stylesheet" href="styles.css">
+<!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+<!-- JS from Bootstrap -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     </head>
+
     <body>
-	/*Comment*/
     	<div class="intro">
-    		<h2 class="greet">Hi! My name is</h2>
-	    	<h1 class="name">Diana Kathlyn C. Cabrera</h1>
-	    	<h3 class="you-can-call-me">You can call me</h3>
-	    	<h2 class="nickname">Kath</h2>
+	    	<div class="trim"><div class="circle intro-c1"></div></div>
+	    	<div class="circle intro-c2"></div>
+	    	<div class="circle intro-c3"></div>
+	    	<div class="circle intro-c4"></div>
+	    	<div class="text">
+	    		<h2 class="greet">Hi! My name is</h2>
+		    	<h1 class="name">Diana Kathlyn C. Cabrera</h1>
+		    	<h3 class="you-can-call-me">You can call me</h3>
+		    	<h2 class="nickname">Kath</h2>
+	    	</div>
     	</div>
 
-    	<div class="info">
-		    <div class="cmsc">
-		    	<h2>CMSC 130</h2>
-		    	<p>So far, my favorite CMSC subject is CMSC 130. I enjoyed how simply logical it was, and it involved what I'll call a relaxingly challenging amount of math. Whenever the other courses drained my energy, I worked on my CMSC 130 requirements to wind down.</p>
-		    </div>
+    	
+    	<div class="info container-fluid">
+	    	<div class="row gx-5">
+	    		<div class="cmsc col-lg-6 col-sm-12">
+	    			<h2>CMSC 130</h2>
+		    		<p>So far, my favorite CMSC subject is CMSC 130. I enjoyed how simply logical it was, and it involved what I'll call a relaxingly challenging amount of math. Whenever the other courses drained my energy, I worked on my CMSC 130 requirements to wind down.</p>
+	    		</div>
+	    		<div class="ge right-aligned col-lg-6 col-sm-12">
+			    	<h2>KAS 1</h2>
+			    	<p>I took KAS 1 in the 2nd semester of my 1st year. I wasn't able to experience the whole course, though, and opted for a grade of PASS during the lockdown. Hoever, I really enjoyed my times in the class. I looked forward to the next class because my prof had good humour and I was comfortable with my classmates.</p>
+	    		</div>
+	    	</div>
+	    	<div class="row">
+	    		<div class="language col-lg-6 col-sm-12">
+			    	<h2>Python</h2>
+			    	<p>Of course, it's Python. It's the first language I learned how to code in in-depth. It was easy to learn and I really appreciate it now after learning C (no hate to C, though, C is actually my default language now.) Though I have to admit, I don't remember much of the syntax anymore.</p>
+	    		</div>
+	    		<div class="food right-aligned col-lg-6 col-sm-12">
+			    	<img src="fav-food.png" alt="Kath's Favorite Food">
+			    	<h2>Steak</h2>
+	    		</div>
+	    	</div>
+    	</div>
 
-		    <div class="ge right-aligned">
-		    	<h2>KAS 1</h2>
-		    	<p>I took KAS 1 in the 2nd semester of my 1st year. I wasn't able to experience the whole course, though, and opted for a grade of PASS during the lockdown. Hoever, I really enjoyed my times in the class. I looked forward to the next class because my prof had good humour and I was comfortable with my classmates.</p>
-		    </div>
-
-		    <div class="language">
-		    	<h2>Python</h2>
-		    	<p>Of course, it's Python. It's the first language I learned how to code in in-depth. It was easy to learn and I really appreciate it now after learning C (no hate to C, though, C is actually my default language now.) Though I have to admit, I don't remember much of the syntax anymore.</p>
-		    </div>
-
-		    <div class="food right-aligned">
-		    	<img src="fav-food.png" alt="Kath's Favorite Food">
-		    	<h2>Steak</h2>
-		    </div>
-       	
+	    <div class="extra">
 	    </div>
     </body>
 </html>
