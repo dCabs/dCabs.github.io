@@ -1,4 +1,4 @@
-/*Comment*/
+
 body {
 	margin: 0;     /*so that divs will flush to the left and right of the page*/
 }
@@ -110,12 +110,9 @@ img {
 	position: absolute;
 	right: 25%;
 }
-/*Additional/Extra Info Section*/
-
-
-
 
 /*Circles*/
+
 .circle {
 	background-color: #ffd369;
 	border-radius: 50%;
