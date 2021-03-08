@@ -34,64 +34,122 @@ img {
 	background-color: #393e46;
 	padding: 80px;
 	text-align: center;
+	overflow: hidden;
+}
+
+.text {
+	position: relative;
+	z-index: 1;
 }
 
 .greet {
 	color: #eee;
 	font-size: 2.9rem;
 	font-weight: 400;
+	padding: 50px 100px;
 	text-align: left;
 }
 
 .name {
 	font-size: 5rem;
 	font-weight: 800;
+	padding: 25px;
+}
+
+.you-can-call-me {
+	font-size: 1.9rem;
+	padding: 50px;
 }
 
 .nickname {
 	color: white;
+	padding: 10px;
 	font-size: 4.5rem;
-	font-weight: 400;
-}
-
-.you-can-call-me {
-	font-size: 2rem;
 }
 
 /*Information Section*/
 
 .info {
-	background-color: #eeeeee;
-	padding: 80px 180px;
-	height: 1400px;
-}
-
-.info div {
-	width: 45%;
+	padding: 80px 200px;
+	background-color: #eee;
 }
 
 .info h2 {
 	margin-top: 0;
-	font-size: 3rem;
+	font-size: 2.9rem;
 	font-weight: 400;
+}
+
+.info p {
+	padding: 10px;
 }
 
 .right-aligned {
 	text-align: right;
-	position: relative;
-	left: 630px;
 }
 
 .ge {
-	bottom: 260px;
+	margin-top: 200px;
 }
 
 .language {
-	position: relative;
-	bottom: 200px;
+	margin-bottom: 100px;
 }
 
-.food {
-	bottom: 500px;
+.food img {
+	margin-top: 140px;
+}
+
+.food h2{
 	text-align: center;
+	position: absolute;
+	right: 25%;
+}
+/*Additional/Extra Info Section*/
+
+
+
+
+/*Circles*/
+.circle {
+	background-color: #ffd369;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.trim {
+	height: 560px;		/*supposed size of the actual circle*/
+	width: 560px;
+	overflow: hidden;	/*for the 'cut off' effect*/
+	position: absolute;
+	right: 0px;			/*place on top right corner of page*/
+	top: 0px;
+}
+
+.intro-c1 {
+	min-width: 100%;		/*circle will fill the trim div*/
+	min-height: 100%;
+	right: -100px;			/*only bottom left part of circle will be seen*/
+	top: -190px;
+}
+
+.intro-c2 {
+	height: 135px;
+	width: 135px;
+	right: 490px;
+	top: 0;
+}
+
+.intro-c3 {
+	height: 55px;
+	width: 55px;
+	right: 470px;
+	top: 160px;
+}
+
+.intro-c4 {
+	height: 28px;
+	width: 28px;
+	right: 428px;
+	top: 235px;
 }
