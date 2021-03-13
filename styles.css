@@ -11,13 +11,13 @@ h1 {
 h2 {
 	color: #222831;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 2.9rem;
 }
 
 h3, p {
 	color: #eee;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-
 }
 
 p {
@@ -28,6 +28,7 @@ p {
 img {
 	width: 80%;
 }
+
 /*Introduction Section*/
 
 .intro {
@@ -201,4 +202,53 @@ img {
 	width: 500px;
 	top: 170px;
 	left: 110px;
+}
+
+/*Additional Information Section*/
+
+.additionalInfo {
+	background-color: #ffd369;
+	color: #222831;
+	padding: 80px 200px;
+	text-align: center;
+	position: relative;
+}
+
+.additionalInfo h2 {
+	font-weight: 800;
+}
+
+.additionalInfo h3 {
+	font-size: 2.2rem;
+	color: #222831;
+}
+
+.hobbies {
+	padding: 80px;
+}
+
+.icon-box {
+	padding: 50px 25px 0;
+}
+
+/*Addition Info Decorations*/
+
+.triangle {
+	position: absolute;
+	top: 0;
+	margin: 0 auto;
+	height: 0;
+	width: 0;
+	border-top: 50px solid #eee;
+	border-left: 95px solid transparent;
+	border-right: 95px solid transparent;
+}
+
+.childhood-dream .circle {
+	background-color: #eee;
+}
+
+.addInfo-c1 {
+	height: 600px;
+	width: 600px;
 }
